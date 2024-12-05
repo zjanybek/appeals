@@ -1,0 +1,29 @@
+.mx-input {
+	border: none !important;
+	box-shadow: none !important;
+
+	height: auto !important;
+
+	padding: 16px 0 !important;
+
+	font-family: 'Roboto Flex' !important;
+	line-height: 20px !important;
+
+	color: #333 !important;
+
+	border-radius: 0 !important;
+	border-bottom: 1px solid #ccc !important;
+
+	&::placeholder {
+		visibility: hidden !important;
+	}
+
+	&:hover {
+		border-color: #ccc !important;
+	}
+}
+
+.mx-icon-calendar {
+	display: none !important;
+	visibility: hidden !important;
+}
